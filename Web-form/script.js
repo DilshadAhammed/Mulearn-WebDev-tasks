@@ -6,7 +6,7 @@ function handleSubmit(e){
     if(password !== cPassword){
         alerT.innerText = "Password does not match";
     }
-    else if(password.length < 8){
+    else if(password.length <= 8){
         alerT.innerText = "Password must be 8 characters long";
     }
     else{
